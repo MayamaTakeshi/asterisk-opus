@@ -18,7 +18,7 @@ The patch was built on top of Asterisk 11.1.2: applying it on different versions
 
 	**For Asterisk 11.8.2:** patch -p1 -u < asterisk-11.8.1-opus+vp8.patch
 
-	**For Asterisk 12.1.1:** patch -p1 -u < asterisk-12.1.1-opus+vp8.patch
+	**For Asterisk 12.2.0 and up (tested till 12.2.5) :** patch -p1 -u < asterisk-12.2-5_opus.patch
 
 Run the bootstrap script to regenerate the configure:
 
